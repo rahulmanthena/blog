@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on My Adventures in Flutterland</title>
+    <title>Hugo on My Adventures in Developerland</title>
     <link>https://rahulmanthena.appspot.com/tags/hugo/</link>
-    <description>Recent content in Hugo on My Adventures in Flutterland</description>
+    <description>Recent content in Hugo on My Adventures in Developerland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 23 Dec 2018 18:42:06 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 19:59:05 +0530</lastBuildDate>
     
 	<atom:link href="https://rahulmanthena.appspot.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo Travis Gae Test</title>
-      <link>https://rahulmanthena.appspot.com/blog/hugo-travis-gae-test/</link>
-      <pubDate>Sun, 23 Dec 2018 18:42:06 +0530</pubDate>
+      <title>Host your Hugo site on Google App Engine via Travis CI</title>
+      <link>https://rahulmanthena.appspot.com/blog/host-your-hugo-site-on-google-app-engine-via-travis-ci/</link>
+      <pubDate>Sun, 23 Dec 2018 19:59:05 +0530</pubDate>
       
-      <guid>https://rahulmanthena.appspot.com/blog/hugo-travis-gae-test/</guid>
-      <description>Hugo Travis Gae Test I cum sed manemus amans Lorem markdownum pauca repagula illa o tauri vaporibus paventem, tam nuda fidem? Longi neque; facies leae: suffundit, novus adspicit contingent neve ferarum adieci? Sive nihil: herbis, et mora, hoc seges, plangere deique, crinita labaret. Circinat iubet liquidus de dixit conscius; deo esse curru vigor cetera repulsae et. Illa fugae post primis tenebat extulit usus prensam communiter dilectu.
- Truces laetus Geratur cum velis reicerer Quoque causa circum Eurotan cornuque sub Aeacide prosunt animos  Ingemuit habebit adhuc Sagitta haec iuvenem cecidisse Lycus alebat Gigantas relinquent palaestrae sunt ut supponitur inpune, et isse artificum.</description>
+      <guid>https://rahulmanthena.appspot.com/blog/host-your-hugo-site-on-google-app-engine-via-travis-ci/</guid>
+      <description>Setup Hugo Site Hugo has excellent documentation on how to setup up a site on your local machine. You can quickly get a basic website running locally by following their instructions.
+Note: I use the cocoa-eh theme. It has an excellent wiki page on github. This is how my config.toml looks like if your are interested.
+Setup Github repo Initialize git in your root directory and make your initial commit .</description>
     </item>
     
   </channel>

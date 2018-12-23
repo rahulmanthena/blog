@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My Adventures in Flutterland</title>
+    <title>Tags on My Adventures in Developerland</title>
     <link>https://rahulmanthena.appspot.com/tags/</link>
-    <description>Recent content in Tags on My Adventures in Flutterland</description>
+    <description>Recent content in Tags on My Adventures in Developerland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 23 Dec 2018 18:42:06 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 19:59:05 +0530</lastBuildDate>
     
 	<atom:link href="https://rahulmanthena.appspot.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Gae</title>
       <link>https://rahulmanthena.appspot.com/tags/gae/</link>
-      <pubDate>Sun, 23 Dec 2018 18:42:06 +0530</pubDate>
+      <pubDate>Sun, 23 Dec 2018 19:59:05 +0530</pubDate>
       
       <guid>https://rahulmanthena.appspot.com/tags/gae/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Hugo</title>
       <link>https://rahulmanthena.appspot.com/tags/hugo/</link>
-      <pubDate>Sun, 23 Dec 2018 18:42:06 +0530</pubDate>
+      <pubDate>Sun, 23 Dec 2018 19:59:05 +0530</pubDate>
       
       <guid>https://rahulmanthena.appspot.com/tags/hugo/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Travis</title>
       <link>https://rahulmanthena.appspot.com/tags/travis/</link>
-      <pubDate>Sun, 23 Dec 2018 18:42:06 +0530</pubDate>
+      <pubDate>Sun, 23 Dec 2018 19:59:05 +0530</pubDate>
       
       <guid>https://rahulmanthena.appspot.com/tags/travis/</guid>
       <description></description>

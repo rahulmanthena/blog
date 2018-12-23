@@ -6,11 +6,12 @@ layoutdir           = "layouts"
 publishdir          = "public"
 theme               = "cocoa-eh"
 author              = "Rahul Manthena"
-title               = "My Adventures in Flutterland"
-disqusshortname     = "rahulmanthena" # Comment out to disable Disqus.
+title               = "My Adventures in Developerland"
 pluralizelisttitles = false
 builddrafts         = false
-#googleAnalytics    = "UA-123-45"
+
+googleAnalytics    = "UA-131327365-1"
+disqusshortname     = "rahulmanthena" # Comment out to disable Disqus.
 
 # Remove files from destination not found in static directories
 cleandestinationdir = true
@@ -19,6 +20,8 @@ cleandestinationdir = true
 pygmentsCodeFences  = true       # This applies to Chroma too.
 pygmentsStyle       = "monokai"
 enableEmoji         = true
+# pygmentsOptions     = "linenos=true"
+enableRobotsTXT     = true
 
 [permalinks]
 blog                = "blog/:slug/"

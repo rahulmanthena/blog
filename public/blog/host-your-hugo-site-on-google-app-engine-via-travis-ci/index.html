@@ -11,25 +11,25 @@
 
     <meta property="twitter:site" content="@rahulmanthena">
 
-<meta property="og:site_name" content="My Adventures in Flutterland" />
+<meta property="og:site_name" content="My Adventures in Developerland" />
 <meta property="og:locale" content="en-US" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://rahulmanthena.appspot.com/blog/hugo-travis-gae-test/" />
-<meta property="og:title" content="Hugo Travis Gae Test" />
-<meta property="twitter:title" content="Hugo Travis Gae Test">
+<meta property="og:url" content="https://rahulmanthena.appspot.com/blog/host-your-hugo-site-on-google-app-engine-via-travis-ci/" />
+<meta property="og:title" content="Host your Hugo site on Google App Engine via Travis CI" />
+<meta property="twitter:title" content="Host your Hugo site on Google App Engine via Travis CI">
 
     <meta property="twitter:card" content="summary">
 
-<meta property="og:description" content="Hugo Travis Gae Test Hpoe this works">
-<meta property="twitter:description" content="Hugo Travis Gae Test Hpoe this works">
-
+<meta property="og:description" content="Setup instructions on to host your hugo site on Google App Engine via Travis CI">
+<meta property="twitter:description" content="Setup instructions on to host your hugo site on Google App Engine via Travis CI">
+<meta name="google-site-verification" content="5eXsi4z3PA7VrH-Yrie9G4OBLeHmlLiIM9i3PE3cBaI" />
 <title>
 
 
-     My Adventures in Flutterland - Hugo Travis Gae Test 
+     My Adventures in Developerland - Host your Hugo site on Google App Engine via Travis CI 
 
 </title>
-<link rel="canonical" href="https://rahulmanthena.appspot.com/blog/hugo-travis-gae-test/">
+<link rel="canonical" href="https://rahulmanthena.appspot.com/blog/host-your-hugo-site-on-google-app-engine-via-travis-ci/">
 
 
 <style media="screen">
@@ -1073,7 +1073,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
     <div class="container">
         
         <div class="content">
-            <a href="https://rahulmanthena.appspot.com/"><div class="name"><h1>My Adventures in Flutterland</h1></div></a>
+            <a href="https://rahulmanthena.appspot.com/"><div class="name"><h1>My Adventures in Developerland</h1></div></a>
             <nav>
                 <ul>
                     
@@ -1103,19 +1103,19 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
                     <div class="page-heading">
 
     
-    Hugo Travis Gae Test
+    Host your Hugo site on Google App Engine via Travis CI
     
 
 </div>
 
                 </div>
                 <div class="meta">
-                    <div class="date" title="Sun Dec 23 2018 18:42:06 IST">Dec 23, 2018</div>
+                    <div class="date" title="Sun Dec 23 2018 19:59:05 IST">Dec 23, 2018</div>
                     
                         
                     
                     
-                    <div class="reading-time middot">2 minute read</div>
+                    <div class="reading-time middot">3 minute read</div>
                     
                     <div class="tags">
                         <ul>
@@ -1124,7 +1124,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
                           
                             <li class="middot"><a href="/tags/travis">Travis</a> </li>
                           
-                            <li class="middot"><a href="/tags/gae">Gae</a> </li>
+                            <li class="middot"><a href="/tags/gae">GAE</a> </li>
                           
                         </ul>
                     </div>
@@ -1138,88 +1138,112 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
             </div>
             <div class="markdown">
                 
-    
-    
-
-<h1 id="hugo-travis-gae-test">Hugo Travis Gae Test</h1>
-
-<h2 id="i-cum-sed-manemus-amans">I cum sed manemus amans</h2>
-
-<p>Lorem markdownum <a href="http://www.temporis-in.org/">pauca repagula illa</a> o tauri
-vaporibus paventem, tam nuda fidem? Longi neque; facies leae: suffundit, novus
-adspicit contingent neve ferarum adieci? <a href="http://sole.com/usque.php">Sive</a>
-nihil: herbis, et mora, hoc seges, plangere deique, <em>crinita labaret</em>. Circinat
-iubet liquidus de dixit conscius; deo esse curru vigor cetera repulsae et. Illa
-fugae <strong>post primis tenebat</strong> extulit usus prensam communiter dilectu.</p>
-
+                    <aside>
+                        <header>
+                        <h2>Table of Contents</h2>
+                        </header>
+                        <nav id="TableOfContents">
 <ul>
-<li>Truces laetus</li>
-<li>Geratur cum velis reicerer</li>
-<li>Quoque causa circum</li>
-<li>Eurotan cornuque sub Aeacide prosunt animos</li>
+<li><a href="#setup-hugo-site">Setup Hugo Site</a></li>
+<li><a href="#setup-github-repo">Setup Github repo</a></li>
+<li><a href="#setup-google-appengine">Setup Google Appengine</a></li>
+<li><a href="#setup-travisci">Setup TravisCI</a></li>
+<li><a href="#congrats">Congrats</a></li>
 </ul>
+</nav>
+                    </aside>
+                
+                
+    
+    
 
-<h2 id="ingemuit-habebit-adhuc">Ingemuit habebit adhuc</h2>
+<h1 id="setup-hugo-site">Setup Hugo Site</h1>
 
-<p>Sagitta haec iuvenem cecidisse Lycus alebat Gigantas relinquent palaestrae sunt
-ut supponitur inpune, et isse artificum. Carpsit praesensque Pergama parabat,
-ire modo est.</p>
+<p>Hugo has excellent documentation on how to setup up a site on your local machine. You can quickly get a basic website running locally by following their <a href="https://gohugo.io/getting-started/quick-start/">instructions</a>.</p>
 
-<pre><code>bar_tweet_external(affiliate(artificial_swipe));
-buffer(compression);
-var pharming = market(-5, compression);
-var osi_e = flamingInterface(log - documentEncoding(wpa_mode_workstation,
-        floodPageExport, www), user_video_cron);
-brouter.mailMp /= nameMeme;
-</code></pre>
+<p>Note: I use the <a href="https://github.com/mtn/cocoa-eh-hugo-theme">cocoa-eh</a> theme. It has an excellent <a href="https://github.com/mtn/cocoa-eh-hugo-theme/wiki">wiki</a> page on github. This is how my <a href="https://github.com/rahulmanthena/blog/blob/master/config.toml">config.toml</a> looks like if your are interested.</p>
 
-<h2 id="spicea-ipsam-humus">Spicea ipsam humus</h2>
+<h1 id="setup-github-repo">Setup Github repo</h1>
 
-<p>Austroque ruunt Stymphalide sidera paucaque dictis, laceraret cum meae
-miserandus vicem referret digitique, interius tua et, visa. Vulnere traxit origo
-hoc coniuge et pars Atrides multi.</p>
+<p>Initialize git in your root directory and make your initial commit . Now create a new repo for your website on github and push your local code to github.</p>
 
-<ol>
-<li>Gerens in lavere fraude adimuntque partes conquesti</li>
-<li>Tamen ignes</li>
-<li>Et Martis ultro</li>
-<li>Et amore est cernit tremulo haesisse functaque</li>
-<li>Venientis et decerpserat pulchra primis medio qua</li>
-</ol>
+<h1 id="setup-google-appengine">Setup Google Appengine</h1>
 
-<h2 id="saepe-arva-iactatis">Saepe arva iactatis</h2>
+<p>Follow the <a href="https://cloud.google.com/resource-manager/docs/creating-managing-projects">instructions</a> on Appengine documentation website and create a new standard google appengine project. Get the gcloud cli <a href="https://cloud.google.com/sdk/docs/#install_the_latest_cloud_tools_version_cloudsdk_current_version">here</a> for testing locally(This is entirely optional but I recommend it so you have instant feedback instead of waiting for Travis build to complete.)</p>
 
-<p>Plus dixit ius; narrat attonitus ut <a href="http://columba-rura.io/">haut qua</a>.
-Percutimurque <a href="http://necsuis.com/quaeet">opem</a> saevamque rupti omnipotens
-<strong>mihi</strong>. Aequor armata; dedit de mensis angebar, vocis hostes Cupidinis petunt
-potero factura darentur potest! Primas una. Partim rara Mnemonidas auxiliaribus
-coactus <a href="http://superbum.org/moto">in</a> erat exarsit praecepta, esses.</p>
+<p>Add an <code>app.yaml</code> and <code>app.go</code> files to your root dir. They should look something like this. We are serving the <code>public</code> directory created by hugo.</p>
 
-<p>Dixit igni et sole per quamvis, ad procul <strong>detinet vitatumque</strong> manet. Et
-<strong>madida</strong> Astraea deterior proceres, casu deam deus Oriente, dixit. Ait adverso
-locus, nec feram, cum ac mox novis tum Cyllene cuncta sinistrae. Fovet urbe
-portus, usa labori quam umbra e nulla mugitus, non modo cane duxit.</p>
+<p><code>app.yaml</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">runtime: go
+api_version: go1
 
-<p>Virbius rerum aeratas inmaduit signa: deorum crurumque, in more magis di domo
-dixit. Truncaeque <strong>corpusque ense rogantem</strong> resonabilis et Lydas vitium
-virgineos, effugies <em>Mavortis inquinat</em> a ferrum puellam tamen a.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dart" data-lang="dart"><span style="color:#66d9ef">if</span> (year <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2001</span>) {
-  print(<span style="color:#e6db74">&#39;21st century&#39;</span>);
-} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1901</span>) {
-  print(<span style="color:#e6db74">&#39;20th century&#39;</span>);
-}
+handlers:
+- url: /.*
+  script: _go_app
+  secure: always</code></pre></div>
+<p><code>app.go</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">blog</span>
 
-<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">var</span> object <span style="color:#66d9ef">in</span> flybyObjects) {
-  print(object);
-}
+<span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;net/http&#34;</span>
 
-<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> month <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; month <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">12</span>; month<span style="color:#f92672">++</span>) {
-  print(month);
-}
-
-<span style="color:#66d9ef">while</span> (year <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2016</span>) {
-  year <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">init</span>() {
+  <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Handle</span>(<span style="color:#e6db74">&#34;/&#34;</span>, <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">FileServer</span>(<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Dir</span>(<span style="color:#e6db74">&#34;public&#34;</span>)))
 }</code></pre></div>
+<h1 id="setup-travisci">Setup TravisCI</h1>
+
+<p>Sign in to TravisCI with your Github account and enable Travis for your repo. Now create  <code>.travis.yml</code> in your root directory and configure it as below.</p>
+
+<p><a href="https://docs.travis-ci.com/user/deployment/google-app-engine/">TravisCI&rsquo;s documentation</a> on how to deploy to Appengine are good but I needed to change a one command to make it work. When encrypting the <code>client-secret.json</code> file, just add <code>--com</code> to the command so it should look like this.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ travis encrypt-file client-secret.json --add --com</code></pre></div>
+<p>This will add the decryption step to <code>.travis.yml</code> file in the <code>before_install</code> section.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- openssl aes-<span style="color:#ae81ff">256</span>-cbc -K $encrypted_5e8948859fb9_key 
+  -iv $encrypted_5e8948859fb9_iv 
+  -in client-secret.json.enc 
+  -out client-secret.json -d</code></pre></div>
+<p>Your completed .travis.yml should look like this.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">language: go
+go:
+- <span style="color:#ae81ff">1.11</span>.x
+
+before_install:
+- openssl aes-<span style="color:#ae81ff">256</span>-cbc -K $encrypted_5e8948859fb9_key 
+  -iv $encrypted_5e8948859fb9_iv
+  -in client-secret.json.enc 
+  -out client-secret.json -d
+- mkdir $HOME/src
+- cd $HOME/src
+- git clone https://github.com/gohugoio/hugo.git
+- cd hugo
+- go install --tags extended
+- cd ${TRAVIS_HOME}/gopath/src/github.com/rahulmanthena/blog
+
+deploy:
+  provider: gae
+  keyfile: client-secret.json
+  project: rahulmanthena
+  skip_cleanup: <span style="color:#66d9ef">true</span></code></pre></div>
+<p>Add a makefile to your root dir to run Hugo in verbose mode. For good measure, add a clean step too. The clean step will allow you to run make clean and remove your local generated site.</p>
+
+<p>Try running <code>make</code> from the root dir of your repo. You’ll see that hugo generates a public dir with all your static files.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-make" data-lang="make"><span style="color:#a6e22e">run</span><span style="color:#f92672">:</span>
+  hugo --verbose
+<span style="color:#a6e22e">clean</span><span style="color:#f92672">:</span>
+  rm -rf public
+</code></pre></div>
+<p>The clean step will allow you to run make clean and remove your local generated site.</p>
+
+<p>Try running make from the root dir of your repo. You’ll see that hugo generates a public dir with all your static files.</p>
+
+<h1 id="congrats">Congrats</h1>
+
+<p>Push your local repo to github and a Travis build should kickoff automatically. Once the build is successful your app should be running on Google App Engine.Your site should be redeployed by TravisCI every time you push new commits to Github.</p>
+
+<blockquote>
+<p>Huge thanks to this <a href="https://taymor.io/posts/deploying-a-blog-with-hugo-travis-and-gae/">guide</a> which helped me in setting up this site.</p>
+</blockquote>
+
+<p>If you find any trouble following along just leave a comment below.</p>
+
 
             </div>
             
@@ -1367,6 +1391,17 @@ virgineos, effugies <em>Mavortis inquinat</em> a ferrum puellam tamen a.</p>
 
 
 
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-131327365-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
 <script>
