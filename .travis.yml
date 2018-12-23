@@ -1,0 +1,17 @@
+language: go
+go:
+- 1.11.x
+before_install:
+- openssl aes-256-cbc -K $encrypted_5e8948859fb9_key -iv $encrypted_5e8948859fb9_iv
+  -in client-secret.json.enc -out client-secret.json -d
+- mkdir $HOME/src
+- cd $HOME/src
+- git clone https://github.com/gohugoio/hugo.git
+- cd hugo
+- go install --tags extended
+- cd ${TRAVIS_HOME}/gopath/src/github.com/rahulmanthena/blog
+deploy:
+  provider: gae
+  keyfile: client-secret.json
+  project: rahulmanthena
+  skip_cleanup: true
