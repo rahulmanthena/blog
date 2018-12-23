@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rahulmanthena.appspot.com/blog/hugo-travis-gae-test/</loc>
+    <lastmod>2018-12-23T18:42:06+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rahulmanthena.appspot.com/blog/</loc>
+    <lastmod>2018-12-23T18:42:06+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rahulmanthena.appspot.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rahulmanthena.appspot.com/tags/gae/</loc>
+    <lastmod>2018-12-23T18:42:06+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rahulmanthena.appspot.com/tags/hugo/</loc>
+    <lastmod>2018-12-23T18:42:06+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rahulmanthena.appspot.com/</loc>
+    <lastmod>2018-12-23T18:42:06+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rahulmanthena.appspot.com/tags/</loc>
+    <lastmod>2018-12-23T18:42:06+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rahulmanthena.appspot.com/tags/travis/</loc>
+    <lastmod>2018-12-23T18:42:06+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

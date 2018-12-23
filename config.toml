@@ -47,7 +47,7 @@ instagram = "manthenarahul"
 usesmallsummarycard = true
 posts_navigation = true
 # issoHost = "comments.domain.tld:1234"
-# githubRepo = "githubUsername/repositoryName/tree/master"
+# githubRepo = "rahulmanthena/blog/tree/master"
 small_banner_logo = false
 
 [params.colors]
